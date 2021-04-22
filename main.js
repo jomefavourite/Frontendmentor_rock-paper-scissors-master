@@ -159,4 +159,5 @@ function gameTemplate(userChoice, computerChoice) {
 
     return {userButton: gameButton[0], computerButton: gameButton[1]};
   }
+  return;
 }
