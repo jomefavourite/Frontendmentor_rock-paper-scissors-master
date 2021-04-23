@@ -14,13 +14,13 @@ const scissors = select('#scissors');
 const scoreResult = select('#score');
 const modal = select('#modal');
 
-var score = lS();
-scoreResult.innerHTML = lS();
+var score = lS(0);
+scoreResult.innerHTML = lS(0);
 
 // LocalStorage functionality
-function lS() {
+function lS(initialValue) {
   const localData = localStorage.key('score');
-  return localData ? Number(localStorage.getItem('score')) : 0;
+  return localData ? Number(localStorage.getItem('score')) : initialValue;
 }
 
 // Event Listeners
