@@ -14,7 +14,14 @@ const scissors = select('#scissors');
 const scoreResult = select('#score');
 const modal = select('#modal');
 
-var score = 0;
+var score = lS();
+scoreResult.innerHTML = lS();
+
+// LocalStorage functionality
+function lS() {
+  const localData = localStorage.key('score');
+  return localData ? Number(localStorage.getItem('score')) : 0;
+}
 
 // Event Listeners
 rock.addEventListener('click', playGame);
@@ -59,11 +66,13 @@ function playGame() {
 
 function add() {
   score = score + 1;
+  localStorage.setItem('score', String(score));
   return (scoreResult.innerHTML = score);
 }
 
 function subtract() {
   score = score === 0 ? 0 : score - 1;
+  localStorage.setItem('score', String(score));
   return (scoreResult.innerHTML = score);
 }
 
