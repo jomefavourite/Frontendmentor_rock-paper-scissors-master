@@ -92,6 +92,10 @@ p:not(.heading p) {
   height: 135px;
   cursor: pointer;
 }
+.game__button:focus {
+  box-shadow: 0 0 10px #afaffd;
+  outline: none;
+}
 .game__button--paper {
   background: var(--paperGradient);
   box-shadow: inset 0 -5px 1px rgba(31, 52, 142, 0.726), 0 5px 10px rgba(0, 0, 0, 0.294);

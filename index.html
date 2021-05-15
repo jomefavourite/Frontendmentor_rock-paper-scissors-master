@@ -29,6 +29,7 @@
             role="button"
             aria-label="paper button"
             id="paper"
+            tabindex="1"
           >
             <div>
               <img src="./images/icon-paper.svg" alt="icon-paper" />
@@ -39,6 +40,7 @@
             role="button"
             aria-label="Scissors button"
             id="scissors"
+            tabindex="2"
           >
             <div>
               <img src="./images/icon-scissors.svg" alt="icon-scissors" />
@@ -51,6 +53,7 @@
           role="button"
           aria-label="rock button"
           id="rock"
+          tabindex="3"
         >
           <div>
             <img src="./images/icon-rock.svg" alt="icon-rock" />
@@ -60,7 +63,12 @@
 
       <div class="play__again">
         <h3 id="winLoseDraw" aria-live="polite">.</h3>
-        <button id="playAgain" class="btn-sec" aria-label="play again">
+        <button
+          id="playAgain"
+          class="btn-sec"
+          aria-label="play again"
+          tabindex="4"
+        >
           Play Again
         </button>
       </div>

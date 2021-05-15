@@ -61,6 +61,11 @@
     height: 135px;
     cursor: pointer;
 
+    &:focus {
+      box-shadow: 0 0 10px rgb(175, 175, 253);
+      outline: none;
+    }
+
     &--paper {
       background: var(--paperGradient);
       @include gameButtonShadow(hsla(229, 64%, 34%, 0.726));
