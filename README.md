@@ -24,20 +24,21 @@ Users should be able to:
 
 ### Screenshot
 
-![picture 1](./design/1.png)
-
-![picture 2](./design/2.png)
-
 ![picture 3](./design/3.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/rock-paper-scissors-game-js-WxT5os_5R)
+- [Live Demo](https://rock-paper-scissors-game-zeta-one.vercel.app/)
 
 ## My process
 
-Read this article - []() to know my process of making the game
+- Making use of Dart SCSS/SASS (Syntactically Awesome Style Sheets) which I had never used.
+- Making use of just vanilla JavaScript.
+- Making use of Functional Programming Paradigm to the best of my abilities and lastly
+- Using BEM (Block Element Modifier) methodology for naming class names.
+
+Read this article - [Let's build a game using JavaScript](https://favouritejome.hashnode.dev/lets-build-a-game-using-javascript) to know my process of making the game
 
 ### Built with
 
@@ -50,7 +51,7 @@ Read this article - []() to know my process of making the game
 
 ### What I learned
 
-Read this article - []() to know what I've learnt by making the game
+Read this article - [Let's build a game using JavaScript](https://favouritejome.hashnode.dev/lets-build-a-game-using-javascript) to know what I've learnt by making the game
 
 ## Author
 
